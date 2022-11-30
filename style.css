@@ -1,0 +1,62 @@
+*{
+    font-family: sans-serif;
+}
+
+#logo {
+    width: 92.4px;
+    height: 30px;
+    padding: 40px 0 0 40px;
+}
+
+body {
+    background-color: black;
+    background: linear-gradient(
+        to right,
+        blue 0%,
+        blue 50%,
+        rgb(202, 214, 214) 50%,
+        rgb(202, 214, 214) 100%
+    );
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    height: 600px;
+    padding: 40px;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.stats-page {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: lightgray;
+}
+
+.registration {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+    max-height: 110vh;
+}
+form{
+height:;
+background-color: rgb(240, 238, 238);
+max-width:60vh;
+justify-content: center;
+margin-left:18vh;
+margin-top: 5vh;
+border-radius: 10px;
+}
+input[type=text]{border-radius: 2px;
+border:none;}
+input[type=text],[type=password]{width:50vh;border:none;
+height:4vh;}
+input[type=button]{width:45vh;
+height:4vh;
+border-radius: 4px;
+border:none;
+background-color: rgb(107, 107, 211);}
